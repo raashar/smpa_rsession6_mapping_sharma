@@ -61,7 +61,7 @@ By setting options(tigris_class = "sf") at the top, we've told tigris we want si
 ```{r, include=FALSE}
 states_geo <- tigris::states(resolution = "20m", cb = TRUE)
 # let's take a look as what we have
-states_geo
+states_geo # dataset with the geometries
 ```
 
 Looks a lot like a dataframe right?
